@@ -38,7 +38,7 @@ app.get('/webhook', (req, res) => {
     }
 });
 
-/ Creates the endpoint for our webhook
+// Creates the endpoint for our webhook
 app.post('/webhook', (req, res) => {
  
     let body = req.body;
